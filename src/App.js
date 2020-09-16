@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation/Navigation';
-
+import SchoolName from './SchoolName/SchoolName';
 import './App.css';
 
 class App extends Component
@@ -10,7 +10,10 @@ class App extends Component
     return(
       <div> 
           <Navigation/>
+          <SchoolName schoolName = "FIU"/>
       </div> 
+
+
     )
 
   }
