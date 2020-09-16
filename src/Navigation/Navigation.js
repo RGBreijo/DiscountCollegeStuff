@@ -1,21 +1,18 @@
-import React from "react";
+import React from 'react'; 
+import DesktopNavigation from './DesktopNavigation';
 
-const Navigation = () =>
+
+const Navigation = () => 
 {
     return(
-        <div>   
-            <div> 
-                <p> Free College Stuff </p>
-            </div> 
-
-            <div> 
-                <li>
-                    <ul> Home </ul> 
-                    <ul> Contact </ul> 
-                </li> 
-            </div> 
-        </div>
+        <div> 
+            <DesktopNavigation/>
+        </div> 
     )
 }
 
+
 export default Navigation; 
+
+
+
