@@ -24,8 +24,6 @@ class App extends Component
             learnMore = "https://www.google.com/"/>
           </div>
       </div> 
-
-
     )
 
   }
