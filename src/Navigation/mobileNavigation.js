@@ -3,9 +3,22 @@ import './mobileNavStyle.css';
 
 const MobileNavigation = () =>
 {
+
+    let  closeMobileNavBar = (e) => 
+    {
+        let target = e.target || e.srcElement; 
+        let mobileNavBarContainer = target.parentElement; 
+        mobileNavBarContainer.style.width = "0";
+        mobileNavBarContainer.style.transition = "width 0.2s";
+    }
+
+
+
+
+
     return(
         <div className="asdf"> 
-            <div className="exitMobile"> X </div>
+            <div className="exitMobile"  onClick ={closeMobileNavBar}> X </div>
             <div className="mobileMenu"> 
 
                 <ul>    
@@ -15,6 +28,9 @@ const MobileNavigation = () =>
             </div> 
         </div> 
     )
+
+
+
 }
 
 export default MobileNavigation; 
