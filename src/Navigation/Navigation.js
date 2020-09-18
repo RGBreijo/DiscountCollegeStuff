@@ -9,7 +9,7 @@ const Navigation = () =>
     return(
         <div> 
             <MobileNavigation/>
-            <DesktopNavigation/>
+            {/* <DesktopNavigation/> */}
         </div> 
     )
 }
