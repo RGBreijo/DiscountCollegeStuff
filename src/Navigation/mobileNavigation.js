@@ -1,15 +1,17 @@
 import React from "react"
+import './mobileNavStyle.css';
 
 const MobileNavigation = () =>
 {
     return(
-        <div> 
-            <div> X </div>
-            <div> 
-                <li>
-                    <ul> Home </ul> 
-                    <ul> Contact </ul> 
-                </li> 
+        <div className="asdf"> 
+            <div className="exitMobile"> X </div>
+            <div className="mobileMenu"> 
+
+                <ul>    
+                    <li> <a href="#">Home</a>  </li>
+                    <li> <a href="#">Contact</a>  </li>
+                </ul> 
             </div> 
         </div> 
     )
