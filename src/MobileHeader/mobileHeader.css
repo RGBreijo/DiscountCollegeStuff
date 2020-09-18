@@ -1,0 +1,11 @@
+
+.mobileHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+
+}
+
+
