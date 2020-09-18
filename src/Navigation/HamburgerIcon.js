@@ -1,11 +1,10 @@
 import React from "react"; 
-
-
+import './hamburgerIcon.css';
 
 const HamburgerIcon = () =>
 {
     return(
-        <div> 
+        <div className="hamburger"> 
             <div> </div> 
             <div> </div> 
             <div> </div> 
