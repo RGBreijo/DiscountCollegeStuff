@@ -1,0 +1,13 @@
+.fiuLogo{   
+    color: #011842;
+    -webkit-text-stroke: 1px #B7872D; 
+    margin-top: -7px; /* Element still has margin even if margin set to 0  */
+    font-size: 50px;
+}
+
+
+
+
+h1{
+    color: white;
+}
