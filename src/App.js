@@ -11,11 +11,10 @@ class App extends Component
   {
     return(
       <div> 
-    
+          <Navigation/>
           <SchoolName schoolName = "FIU"/>
 
           <div> 
-            <Navigation/>
             <DiscountCard 
             itemName = "Wall Street Journal" 
             location = "Online" 
