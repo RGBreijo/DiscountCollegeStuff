@@ -1,0 +1,56 @@
+
+.mainCardInformationContainer{
+    display: flex;
+}
+
+.cardTextContent{
+    padding-left: 1em;
+
+}
+
+.cardTitle{
+    font-size: 1.2em;
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 0.3em;
+}
+
+.cardInformation p{
+    margin-bottom: 10px;
+
+}
+
+.infoType{
+    color: #9A9AA4;
+    font-weight: bold;
+}
+
+.infoValue{
+    font-weight: 550;
+}
+
+.moreInformationContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    margin-top: 1em;
+}
+.moreInformationContainer a{
+    background-color: #019AFF;
+    color: white; 
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.cardContainer{
+    border-bottom: 1px solid #bebaba;
+}
+
+.infoContainer{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+}
