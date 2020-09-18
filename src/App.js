@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Navigation from './Navigation/Navigation';
 import SchoolName from './SchoolName/SchoolName';
 import DiscountCard from "./DiscountCard/DiscountCard";
+import MobileHeader from "./MobileHeader/MobileHeader";
+
 
 import './App.css';
 
@@ -11,8 +13,13 @@ class App extends Component
   {
     return(
       <div> 
-          <Navigation/>
-          <SchoolName schoolName = "FIU"/>
+
+          {/* <Navigation/> */}
+          <MobileHeader/> 
+
+
+
+
 
           <div> 
             <DiscountCard 
