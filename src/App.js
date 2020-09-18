@@ -4,6 +4,8 @@ import SchoolName from './SchoolName/SchoolName';
 import DiscountCard from "./DiscountCard/DiscountCard";
 import MobileHeader from "./MobileHeader/MobileHeader";
 
+import wallStreetJournalLogo from "./images/wallStreetJournalLogo.png"
+
 
 import './App.css';
 
@@ -16,19 +18,18 @@ class App extends Component
 
           <Navigation/>
           <MobileHeader/> 
-
-
-
-
-
+          {/* <SchoolName schoolName = "FIU"/> */}
           <div> 
             <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
             itemName = "Wall Street Journal" 
             location = "Online" 
             campus = "MMC BBC" 
             cost = "FREE"
             learnMore = "https://www.google.com/"/>
           </div>
+
+
       </div> 
     )
 
