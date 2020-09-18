@@ -17,7 +17,7 @@ const MobileNavigation = () =>
 
 
     return(
-        <div className="asdf"> 
+        <div className="mobileNavContainer"> 
             <div className="exitMobile"  onClick ={closeMobileNavBar}> X </div>
             <div className="mobileMenu"> 
 
