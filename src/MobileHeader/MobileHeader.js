@@ -1,6 +1,6 @@
 import React from 'react'; 
 import SchoolName from '../SchoolName/SchoolName';
-import HambugerIcon from '../Navigation/HamburgerIcon';
+import HambugerIcon from '../icons/HamburgerIcon/HamburgerIcon';
 import './mobileHeader.css';
 
 
