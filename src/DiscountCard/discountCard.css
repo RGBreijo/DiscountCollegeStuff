@@ -49,9 +49,19 @@
 
 .cardContainer{
     border-bottom: 1px solid #bebaba;
+    max-width: 900px;
+
 }
 
 .infoContainer{
     display: grid;
     grid-template-columns: 80px 1fr;
+}
+
+
+@media only screen and (min-width: 460px){
+
+    .cardContainer{
+        width: 100%;
+    }
 }
