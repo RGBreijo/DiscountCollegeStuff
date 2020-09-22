@@ -18,7 +18,7 @@ class App extends Component
 
           <Navigation/>
           <MobileHeader/> 
-          {/* <SchoolName schoolName = "FIU"/> */}
+          <SchoolName schoolName = "FIU" test="App"/>
           <div> 
             <DiscountCard 
             itemImagePath = {wallStreetJournalLogo}
