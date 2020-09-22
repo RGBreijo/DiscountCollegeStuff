@@ -1,6 +1,7 @@
 
 .mainCardInformationContainer{
     display: flex;
+    padding-top: 1.5em;
 }
 
 .cardTextContent{
