@@ -9,7 +9,6 @@ const MobileHeader = () =>
 {
     return(
         <div className="mobileHeader"> 
-            {/* <SchoolName schoolName = "FIU"/> */}
             <HambugerIcon/>
         </div> 
     )
