@@ -1,7 +1,10 @@
 
+/*
+    When decide to put a name change flex end to space inbetween
+*/
 .mobileHeader{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 0;
     padding: 10px;
     align-items: center;
