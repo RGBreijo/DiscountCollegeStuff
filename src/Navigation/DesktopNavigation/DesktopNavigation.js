@@ -1,18 +1,21 @@
 import React from "react";
+import "./desktopNavigation.css"
 
 const DesktopNavigation = () =>
 {
     return(
-        <div>   
+        <div className="desktopNavigationContainer">   
             <div> 
-                <p> Free College Stuff </p>
+                <p className="siteName"> Free College Stuff </p>
             </div> 
 
-            <div> 
-                <li>
-                    <ul> Home </ul> 
-                    <ul> Contact </ul> 
-                </li> 
+            <div className="desktopNavigationListContainer"> 
+
+                <ul> 
+                    <li> <a href="#"> Home</a> </li> 
+                    <li> <a href="#"> Contact</a> </li> 
+                </ul>
+
             </div> 
         </div>
     )
