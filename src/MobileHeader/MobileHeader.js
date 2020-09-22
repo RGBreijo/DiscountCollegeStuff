@@ -9,7 +9,7 @@ const MobileHeader = () =>
 {
     return(
         <div className="mobileHeader"> 
-            <SchoolName schoolName = "FIU"/>
+            {/* <SchoolName schoolName = "FIU"/> */}
             <HambugerIcon/>
         </div> 
     )
