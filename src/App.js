@@ -19,7 +19,7 @@ class App extends Component
           <Navigation/>
           <MobileHeader/> 
           <SchoolName schoolName = "FIU" test="App"/>
-          <div> 
+          <div className="cardHolder"> 
             <DiscountCard 
             itemImagePath = {wallStreetJournalLogo}
             itemName = "Wall Street Journal" 
@@ -29,7 +29,7 @@ class App extends Component
             learnMore = "https://www.google.com/"/>
           </div>
 
-          <div> 
+          <div className="cardHolder"> 
             <DiscountCard 
             itemImagePath = {wallStreetJournalLogo}
             itemName = "Wall Street Journal" 
