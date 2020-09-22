@@ -1,0 +1,28 @@
+.desktopNavigationContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.desktopNavigationListContainer ul{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    margin-right: 1em;
+    font-size: 1.3em;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+.siteName{
+    font-size: 1.5em;
+}
+
