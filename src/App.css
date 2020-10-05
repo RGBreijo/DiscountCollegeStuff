@@ -1,3 +1,27 @@
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  background-color: #2296F3;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F1F1;
+}
+
+
+
+
 .App {
   text-align: center;
 }
@@ -44,5 +68,18 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+  }
+
+  .cardHolderContainer{
+
+    width: 700px;
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .mainContentContainer{
+    display: flex;
+    justify-content: center;
   }
 }
