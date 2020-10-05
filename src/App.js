@@ -40,6 +40,29 @@ class App extends Component
           </div>
 
 
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Wall Street Journal" 
+            location = "Online" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://www.google.com/"/>
+          </div>
+
+
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Wall Street Journal" 
+            location = "Online" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://www.google.com/"/>
+          </div>
+
+
 
       </div> 
     )
