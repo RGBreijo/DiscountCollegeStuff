@@ -48,8 +48,11 @@
 }
 
 .cardContainer{
-    border-bottom: 1px solid #bebaba;
+    /* border-bottom: 1px solid #bebaba; */
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     max-width: 600px;
+    margin-bottom: 1em;
+    padding-left: 1em;
 
 }
 
