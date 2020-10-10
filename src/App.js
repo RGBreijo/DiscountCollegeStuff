@@ -3,6 +3,9 @@ import Navigation from './Navigation/Navigation';
 import SchoolName from './SchoolName/SchoolName';
 import DiscountCard from "./DiscountCard/DiscountCard";
 import MobileHeader from "./MobileHeader/MobileHeader";
+import Email from "./email/Email";
+import Fotter from "./footer/Footer";
+
 
 import wallStreetJournalLogo from "./images/wallStreetJournalLogo.png"
 
@@ -72,6 +75,14 @@ class App extends Component
 
           </div> 
 
+          <div className="mainContentContainer"> 
+              <Email/>
+          </div>
+
+          <div> 
+              <Fotter/>
+          </div> 
+         
       </div> 
     )
 
