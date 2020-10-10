@@ -12,6 +12,9 @@
 
 .desktopHeader{
   display: none;
+  border-bottom: 1px solid rgba(222, 222, 222, 0.5);
+  margin-bottom: 1em;
+
 }
 
 
@@ -23,6 +26,8 @@
 
     .desktopHeader{
         display: block;
+        /* background: #262425;
+        color: white; */
     }
 
 }
