@@ -12,7 +12,8 @@ html {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, .5);
   box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-  background-color: #2296F3;
+  background-color: #d7d7d7;
+
 }
 
 ::-webkit-scrollbar-track {
@@ -71,11 +72,15 @@ html {
   }
 
   .cardHolderContainer{
-
+    margin-top: 1em;
     width: 700px;
-    height: 450px;
+    height: 70vh;
     overflow-y: scroll;
     overflow-x: hidden;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+    padding-top: 1em; 
+
   }
 
   .mainContentContainer{
