@@ -1,5 +1,4 @@
 import React from 'react'; 
-import SchoolName from '../SchoolName/SchoolName';
 import HambugerIcon from '../icons/HamburgerIcon/HamburgerIcon';
 import DesktopNavigation from "../Navigation/DesktopNavigation/DesktopNavigation";
 import './mobileHeader.css';
