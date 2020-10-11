@@ -5,6 +5,7 @@ import DiscountCard from "./DiscountCard/DiscountCard";
 import MobileHeader from "./MobileHeader/MobileHeader";
 import Email from "./email/Email";
 import Fotter from "./footer/Footer";
+import {Helmet} from "react-helmet";
 
 
 import wallStreetJournalLogo from "./images/wallStreetJournalLogo.png"
@@ -18,6 +19,12 @@ class App extends Component
   {
     return(
       <div> 
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Free College Stuff</title>
+                <meta name="description" content="A list of all the free or discounted resources available to Florida International University (FIU) students." />
+                <link rel="apple-touch-icon" sizes="72x72" href="http://mysite.com/img/apple-touch-icon-72x72.png" />
+            </Helmet>
 
           <Navigation/>
           <MobileHeader/> 
