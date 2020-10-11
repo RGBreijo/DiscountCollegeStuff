@@ -68,6 +68,10 @@ body p h1{
     }
     .emailBtn{
         border-radius: 0 5px 5px 0;
+        text-align: center;
+        padding: 0;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 
     .emailInputContainer input{
