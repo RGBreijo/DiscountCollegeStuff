@@ -6,7 +6,7 @@ const DesktopNavigation = () =>
     return(
         <div className="desktopNavigationContainer">   
             <div> 
-                <p className="siteName"> Free College Stuff </p>
+                <p className="siteName"> Discount College Stuff </p>
             </div> 
 
             <div className="desktopNavigationListContainer"> 
