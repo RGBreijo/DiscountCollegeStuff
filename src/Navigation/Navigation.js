@@ -1,5 +1,4 @@
 import React from 'react'; 
-import DesktopNavigation from './DesktopNavigation/DesktopNavigation';
 import MobileNavigation from './MobileNavigation/mobileNavigation';
 
 const Navigation = () => 
