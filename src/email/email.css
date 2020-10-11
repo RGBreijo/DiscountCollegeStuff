@@ -22,28 +22,26 @@ body p h1{
 }
 
 .emailContainer{
-    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .emailInputContainer{
-    
     height: 40px;
     display: flex;
+    flex-direction: column;
     margin-bottom: 5em;
 }
 .emailInputContainer input{
     width: 250px;
     font-size: 1.5em;
     padding: 0.3em;
-    margin-bottom: 2em;
     border: 1px solid lightgray;
     box-sizing: border-box;
     height: 100%;
-    border-radius: 5px 0 0 5px;
-    border-right: none;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
 
 }
 
@@ -52,7 +50,33 @@ body p h1{
     background-color: #DF9B13;
     color: white;
     border: none;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
+    padding: 0.5em;
     border-left: none;
-    font-size: 1em;
+    font-size: 1.4em;
 }
+
+
+@media only screen and (min-width: 460px){
+
+    .emailInputContainer{
+        flex-direction: row;
+    }
+    
+    .emailContainer{
+        width: 450px;
+    }
+    .emailBtn{
+        border-radius: 0 5px 5px 0;
+    }
+
+    .emailInputContainer input{
+        margin-bottom: 2em;
+        border-radius: 5px 0 0 5px;
+        border-right: none;
+    }
+    
+    .emailContainer{
+        width: 450px;
+    }
+  }
