@@ -6,6 +6,7 @@ const HamburgerIcon = () =>
     const showMobileNav = () =>
     {
         let mobileNavBarContainer = document.querySelector(".mobileNavContainer");
+        mobileNavBarContainer.style.transition = "width 0.2s";
         mobileNavBarContainer.style.width = "150px";
     }
 
