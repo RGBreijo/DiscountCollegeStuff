@@ -9,10 +9,10 @@ body, h1, p{
     position: fixed;
     right: 0;
     height: 100vh;
-    width: 150px;
     background-color: #2C333E;
     border: none;
     overflow: hidden;
+    width: 0px;
 }
 
 
