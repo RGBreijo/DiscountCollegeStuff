@@ -19,9 +19,12 @@ const Email = () =>
             <div className="emailInputContainer"> 
             <MailchimpSubscribe url={URL}>
                 <div> 
+                <div>
                 <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Email"/>
-                {/* <div class="chimp" aria-hidden="true"><input type="text" name="b_6f212258d1c2cdfd3a97ea0c0_472fbd7c68" tabindex="-1" value=""/></div> */}
+                <div aria-hidden="true"><input type="text" name="b_6f212258d1c2cdfd3a97ea0c0_472fbd7c68" tabindex="-1" value=""/></div> 
                 <button className="emailBtn" name="email" type="submit">Subscribe</button>
+                </div>
+
                 </div> 
             </MailchimpSubscribe>
             </div>
@@ -35,3 +38,4 @@ const Email = () =>
 
 
 export default Email;
+
