@@ -27,7 +27,7 @@ body p h1{
     align-items: center;
 }
 
-.emailInputContainer div {
+.emailInputContainer > div {
     display: flex;
     flex-direction: column;
     max-width: 350px;
@@ -39,7 +39,6 @@ body p h1{
     align-items: center;
     padding-left: 1em;
     padding-right: 1em; 
-
 }
 .emailInputContainer div input{
     width: 250px;
@@ -52,6 +51,14 @@ body p h1{
     margin-bottom: 0.5em;
 
 }
+
+.emailInputContainer div > div{
+   width: 100%;
+   margin-bottom: 1em;
+   width: 250px;
+}
+
+
 
 .emailInputContainer div button{
     box-sizing: border-box;
@@ -69,6 +76,12 @@ body p h1{
 
 
 @media only screen and (min-width: 460px){
+
+    .emailInputContainer div > div{
+        width: 350px;
+     }
+
+     
 
     .emailInputContainer div{
         flex-direction: row;
