@@ -7,7 +7,20 @@ import Email from "./email/Email";
 import Fotter from "./footer/Footer";
 
 
+// images
 import wallStreetJournalLogo from "./images/wallStreetJournalLogo.png"
+import bookScan from "./images/bookScan.jpg"
+import counseling from "./images/Counseling.jpg"
+import condoms from "./images/condoms.jpg"
+import frostArt from "./images/FrostArt.jpg"
+import gym from "./images/gym.jpg"
+import printer from "./images/printer.jpg"
+import newYorkTimes from "./images/NewYorkTimes.png"
+import foodPantry from "./images/FoodPantry.png"
+import mcafee from "./images/mcafee.png"
+import massage from "./images/massage.jpg"
+import microsoft365 from "./images/microsoft365.jpg"
+import linkedinLearning from "./images/linkedinLearning.jpg"
 
 
 import './App.css';
@@ -30,7 +43,7 @@ class App extends Component
           <div className="cardHolderContainer"> 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {bookScan}
             itemName = "Book Scanning" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -39,7 +52,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {counseling}
             itemName = "Counseling and Psychological Services" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -48,7 +61,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {foodPantry}
             itemName = "Food Pantry" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -57,7 +70,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {gym}
             itemName = "Gym" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -67,7 +80,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {linkedinLearning}
             itemName = "Linkedin Learning" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -79,7 +92,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {massage}
             itemName = "Massage Therapy" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -88,7 +101,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {mcafee}
             itemName = "McAfee LiveSafe" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -97,7 +110,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {microsoft365}
             itemName = "Microsoft 365 package" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -106,7 +119,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {newYorkTimes}
             itemName = "New York times " 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -115,7 +128,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {frostArt}
             itemName = "Patricia and Phillip Frost Art Museum Admission" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -124,7 +137,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {printer}
             itemName = "Printing" 
             campus = "MMC BBC" 
             cost = "FREE"
@@ -134,7 +147,7 @@ class App extends Component
 
           <div className="cardHolder"> 
             <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
+            itemImagePath = {condoms}
             itemName = "Sexual Health Resources " 
             campus = "MMC BBC" 
             cost = "FREE"
