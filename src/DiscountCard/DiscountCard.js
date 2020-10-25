@@ -13,7 +13,6 @@ const DiscountCard = (props) =>
                 <div className="cardTextContent"> 
                     <h2 className="cardTitle"> {props.itemName}</h2> 
                     <div className="cardInformation"> 
-                        <p className="infoContainer"> <span className="infoType"> Location: </span> <span className="infoValue"> {props.location} </span> </p>
                         <p className="infoContainer"> <span className="infoType"> Campus:   </span> <span className="infoValue"> {props.campus}  </span> </p>
                         <p className="infoContainer"> <span className="infoType"> Cost:     </span> <span className="infoValue"> {props.cost} </span> </p>
                     </div> 

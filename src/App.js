@@ -31,21 +31,114 @@ class App extends Component
           <div className="cardHolder"> 
             <DiscountCard 
             itemImagePath = {wallStreetJournalLogo}
-            itemName = "Wall Street Journal" 
-            location = "Online" 
+            itemName = "Book Scanning" 
             campus = "MMC BBC" 
             cost = "FREE"
-            learnMore = "https://www.google.com/"/>
+            learnMore = "https://libanswers.fiu.edu/faq/18025"/>
           </div>
 
           <div className="cardHolder"> 
             <DiscountCard 
             itemImagePath = {wallStreetJournalLogo}
-            itemName = "Wall Street Journal" 
-            location = "Online" 
+            itemName = "Counseling and Psychological Services" 
             campus = "MMC BBC" 
             cost = "FREE"
-            learnMore = "https://www.google.com/"/>
+            learnMore = "https://studentaffairs.fiu.edu/health-and-fitness/counseling-and-psychological-services/"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Food Pantry" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://studentaffairs.fiu.edu/get-support/student-food-pantry/index.php"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Gym" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://studentaffairs.fiu.edu/health-and-fitness/recreation/"/>
+          </div>
+
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Linkedin Learning" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://linkedinlearning.fiu.edu/"/>
+          </div>
+
+
+
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Massage Therapy" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://studentaffairs.fiu.edu/health-and-fitness/student-health/healthy-living/on-campus-services/massage-therapy/index.php"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "McAfee LiveSafe" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://panthertech.fiu.edu/livesafe/"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Microsoft 365 package" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://freeoffice.fiu.edu/"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "New York times " 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://goglobal.fiu.edu/accessnyt/"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Patricia and Phillip Frost Art Museum Admission" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://frost.fiu.edu/visit/index.html#:~:text=Admission,the%20museum%20is%20always%20free!"/>
+          </div>
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Printing" 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://studentaffairs.fiu.edu/campus-services/labs-and-spaces/computer-labs/index.php"/>
+          </div>
+
+
+          <div className="cardHolder"> 
+            <DiscountCard 
+            itemImagePath = {wallStreetJournalLogo}
+            itemName = "Sexual Health Resources " 
+            campus = "MMC BBC" 
+            cost = "FREE"
+            learnMore = "https://studentaffairs.fiu.edu/health-and-fitness/student-health/healthy-living/on-campus-services/sexual-health-resources/index.php"/>
           </div>
 
 
@@ -53,22 +146,9 @@ class App extends Component
             <DiscountCard 
             itemImagePath = {wallStreetJournalLogo}
             itemName = "Wall Street Journal" 
-            location = "Online" 
             campus = "MMC BBC" 
             cost = "FREE"
-            learnMore = "https://www.google.com/"/>
-          </div>
-
-
-
-          <div className="cardHolder"> 
-            <DiscountCard 
-            itemImagePath = {wallStreetJournalLogo}
-            itemName = "Wall Street Journal" 
-            location = "Online" 
-            campus = "MMC BBC" 
-            cost = "FREE"
-            learnMore = "https://www.google.com/"/>
+            learnMore = "https://library.fiu.edu/business_cba"/>
           </div>
 
           </div> 
